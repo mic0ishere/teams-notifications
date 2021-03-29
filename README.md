@@ -14,12 +14,8 @@ Before installation, check if your node.js version is 14 or higher (use `node -v
    - Paste Application ID into `OAUTH_APP_ID`
    - Paste Application Secret into `OAUTH_APP_SECRET`
 5. Run `npm start`
-
 ## Contributing
-
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 ## Projects Used
 
-[Microsoft's Graph API Express Example](https://github.com/microsoftgraph/msgraph-training-nodeexpressapp)
-^ I used it because API docs are awful and I couldn't understand it. <!-- Secret Info: Also: Their NPM packages are even worse (or I'm dumb) -->
+[Microsoft's Graph API Express Example](https://github.com/microsoftgraph/msgraph-training-nodeexpressapp) - I used it because API docs are awful and I couldn't understand it. <!-- Secret Info: Also: Their NPM packages are even worse (or I'm dumb) -->
