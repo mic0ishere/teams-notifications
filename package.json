@@ -1,0 +1,50 @@
+{
+  "name": "teams-notifications",
+  "version": "1.0.0",
+  "description": "Notifications from calendar for MS Teams",
+  "dependencies": {
+    "@azure/msal-node": "^1.0.1",
+    "@microsoft/microsoft-graph-client": "^2.1.1",
+    "concurrently": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "dotenv": "^8.2.0",
+    "electron": "^12.0.2",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "hbs": "^4.1.1",
+    "http-errors": "^1.8.0",
+    "isomorphic-fetch": "^3.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.1",
+    "windows-iana": "^4.2.1"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^2.3.5",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "server": "node server/index.js",
+    "server:dev": "nodemon --watch \"server\" --exec \"node server/index.js dev\"",
+    "app": "electron app/index.js",
+    "app:dev": "nodemon --watch \"app\" --exec \"npm run app\"",
+    "start": "concurrently -n \"SERVER,APP\" \"npm run server\" \"npm run app\" -c \"bgMagenta.bold,bgGreen.bold\"",
+    "start:dev": "concurrently -n \"SERVER,APP\" \"npm run server:dev\" \"npm run app:dev\" -c \"bgMagenta.bold,bgGreen.bold\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mic0ishere/teams-notifications.git"
+  },
+  "keywords": [
+    "notifications",
+    "ms-teams",
+    "teams"
+  ],
+  "author": "mic0 <https://mic0.me>",
+  "license": "ODbL-1.0",
+  "bugs": {
+    "url": "https://github.com/mic0ishere/teams-notifications/issues"
+  },
+  "homepage": "https://github.com/mic0ishere/teams-notifications#readme"
+}
