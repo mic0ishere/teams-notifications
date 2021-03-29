@@ -2,7 +2,7 @@
 
 ## Installation
 
-Before installation, check if your node.js version is 14 or higher (use `node -v`)
+Before installation, make sure your Node.js version is 14 or higher (use `node -v`)
 
 1. Clone this repo
 2. Rename `example.env` to `.env`
