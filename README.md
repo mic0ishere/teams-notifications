@@ -2,7 +2,7 @@
 
 <img width="400px" alt="Calendar View" src="assets/mic0's calendar.png"></img>
 <img width="400px" alt="Login Screen" src="assets/mic0's login.png"></img>
-<img width="400px" alt="Notification" src="assets/mic0's notification.png"></img>
+<img width="400px" alt="Notification" src="assets/mic0's teams notifications.png"></img>
 
 ## Installation
 
