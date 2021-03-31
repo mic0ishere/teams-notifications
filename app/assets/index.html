@@ -41,7 +41,6 @@
     <script>
       const { ipcRenderer } = require('electron');
       ipcRenderer.on('calendarInformation', function (event, store) {
-        console.log(store);
         document.getElementById('title').innerHTML = store.title;
         document.getElementById('text').innerHTML = store.body;
       });

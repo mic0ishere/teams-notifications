@@ -64,7 +64,7 @@ function checkNotifications() {
         }
         cachedEvent = event;
         const notification = {
-          title: "Lesson Started",
+          title: "Meeting Started",
           body: `Meeting Name: <strong>${event.subject}</strong><br>Organiser: <strong>${event.organizer.emailAddress.name}</strong>`,
         };
         const window = new BrowserWindow({
