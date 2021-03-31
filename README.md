@@ -1,8 +1,8 @@
 # Teams Notifications
 
-<img width="400px" alt="Calendar View" src="assets/calendar_view.png"></img>
-<img width="400px" alt="Login Screen" src="assets/login.png"></img>
-<img width="400px" alt="Notification" src="assets/notification.png"></img>
+<img width="400px" alt="Calendar View" src="https://imgur.com/YrprlVj.png"></img>
+<img width="400px" alt="Login Screen" src="https://imgur.com/lUD8pvP.png"></img>
+<img width="400px" alt="Notification" src="https://imgur.com/bxkqQNo.png"></img>
 
 ## Installation
 
