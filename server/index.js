@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const msal = require('@azure/msal-node');
 require('dotenv').config();
+process.env.OAUTH_REDIRECT_URI = `http://localhost:${process.env.PORT}/auth/callback`
 
 const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth');
