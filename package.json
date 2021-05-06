@@ -18,7 +18,7 @@
     "moment-timezone": "^0.5.31",
     "morgan": "^1.10.0",
     "uuid": "^8.3.1",
-    "windows-iana": "^4.2.1"
+    "windows-iana": "^5.0.2"
   },
   "devDependencies": {
     "electron-rebuild": "^2.3.5",
