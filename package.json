@@ -21,7 +21,7 @@
     "windows-iana": "^5.0.2"
   },
   "devDependencies": {
-    "electron-rebuild": "^2.3.5",
+    "electron-rebuild": "^3.0.0",
     "nodemon": "^2.0.7"
   },
   "scripts": {
