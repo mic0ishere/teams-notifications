@@ -4,7 +4,7 @@
   "description": "Notifications from calendar for MS Teams",
   "dependencies": {
     "@azure/msal-node": "^1.0.1",
-    "@microsoft/microsoft-graph-client": "^2.1.1",
+    "@microsoft/microsoft-graph-client": "^3.0.0",
     "concurrently": "^6.0.0",
     "cookie-parser": "~1.4.4",
     "dotenv": "^10.0.0",
