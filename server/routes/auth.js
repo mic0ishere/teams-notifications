@@ -45,7 +45,7 @@ router.get("/callback", async (req, res) => {
       displayName: user.displayName,
       email: user.mail || user.userPrincipalName,
       // quick "fix" for now, as api permissions seem to messup
-      timeZone: `${process.env.TIMEZONE}`,
+      timeZone: process.env.TIMEZONE,
     };
   } catch (error) {
     req.app.locals.error_msg = {
