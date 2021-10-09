@@ -10,13 +10,10 @@ Before installation, make sure your Node.js version is 14 or higher (use `node -
 
 1. Clone this repo
 2. Rename `example.env` to `.env`
-3. Create Application:
-   - Go to https://developer.microsoft.com/en-us/graph/quick-start
-   - Select Node.js
-   - Click "Get an app ID and secret"
+3. Create Application: https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app
 4. Fill `.env` file with credentials gained in step 3
    - Paste Application ID into `OAUTH_APP_ID`
-   - Paste Application Secret into `OAUTH_APP_SECRET`
+   - Paste Secret into `OAUTH_APP_SECRET`
 5. Run `npm start`
 
 ### Contributing

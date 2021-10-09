@@ -11,20 +11,21 @@
   </thead>
   <tbody>
     {{#each events}}
-    <tr>
-      <td>
-        {{ this.organizer.emailAddress.name }}
-      </td>
-      <td>
-        {{ this.subject }}
-      </td>
-      <td>
-        {{eventDateTime this.start.dateTime}}
-      </td>
-      <td>
-        {{eventDateTime this.end.dateTime}}
-      </td>
-    </tr>
+      <tr>
+        <script>console.log("{{ this }}")</script>
+        <td>
+          {{ this.organizer.emailAddress.name }}
+        </td>
+        <td>
+          {{ this.subject }}
+        </td>
+        <td>
+          {{eventDateTime this.start.dateTime}}
+        </td>
+        <td>
+          {{eventDateTime this.end.dateTime}}
+        </td>
+      </tr>
     {{/each}}
   </tbody>
 </table>

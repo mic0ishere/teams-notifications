@@ -2,7 +2,6 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
-const logger = require('morgan');
 const msal = require('@azure/msal-node');
 require('dotenv').config();
 process.env.OAUTH_REDIRECT_URI = `http://localhost:${process.env.PORT}/auth/callback`
@@ -66,7 +65,6 @@ const moment = require('moment');
 hbs.registerHelper('eventDateTime', function(dateTime){
   return moment(dateTime).format('M/D/YY h:mm A');
 });
-app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
