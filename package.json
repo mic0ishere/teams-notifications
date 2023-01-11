@@ -8,7 +8,7 @@
     "concurrently": "^7.0.0",
     "cookie-parser": "~1.4.4",
     "dotenv": "^16.0.0",
-    "electron": "^21.3.0",
+    "electron": "^22.0.1",
     "express": "^4.17.1",
     "express-promise-router": "^4.0.1",
     "hbs": "^4.1.1",
